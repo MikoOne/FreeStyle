@@ -9,7 +9,8 @@ pipeline {
 
     stage('build') {
       steps {
-        sh 'xcodebuild test -workspace JenkinsFreeStyle.xcworkspace -scheme JenkinsFreeStyle  -destination \'platform=iOS Simulator,name=iPhone 11\''
+        sh '''xcodebuild -workspace JenkinsFreeStyle.xcworkspace -scheme JenkinsFreeStyle clean build
+'''
       }
     }
 
