@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UIButton *btn = [UIButton new];
     // Do any additional setup after loading the view.
 }
 
