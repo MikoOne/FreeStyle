@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D90E44E7238D09A800BBAD24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D90E44E6238D09A800BBAD24 /* AppDelegate.m */; };
+		D90E44EA238D09A800BBAD24 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D90E44E9238D09A800BBAD24 /* SceneDelegate.m */; };
+		D90E44ED238D09A800BBAD24 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90E44EC238D09A800BBAD24 /* ViewController.m */; };
+		D90E44F0238D09A800BBAD24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D90E44EE238D09A800BBAD24 /* Main.storyboard */; };
+		D90E44F2238D09A800BBAD24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D90E44F1238D09A800BBAD24 /* Assets.xcassets */; };
+		D90E44F5238D09A800BBAD24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D90E44F3238D09A800BBAD24 /* LaunchScreen.storyboard */; };
+		D90E44F8238D09A800BBAD24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D90E44F7238D09A800BBAD24 /* main.m */; };
+		D90E4502238D09A900BBAD24 /* JenkinsFreeStyleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D90E4501238D09A900BBAD24 /* JenkinsFreeStyleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D90E44FE238D09A900BBAD24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D90E44DA238D09A800BBAD24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D90E44E1238D09A800BBAD24;
+			remoteInfo = JenkinsFreeStyle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D90E44E2238D09A800BBAD24 /* JenkinsFreeStyle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JenkinsFreeStyle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90E44E5238D09A800BBAD24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D90E44E6238D09A800BBAD24 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D90E44E8238D09A800BBAD24 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D90E44E9238D09A800BBAD24 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D90E44EB238D09A800BBAD24 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D90E44EC238D09A800BBAD24 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D90E44EF238D09A800BBAD24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D90E44F1238D09A800BBAD24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D90E44F4238D09A800BBAD24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D90E44F6238D09A800BBAD24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D90E44F7238D09A800BBAD24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D90E44FD238D09A900BBAD24 /* JenkinsFreeStyleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinsFreeStyleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90E4501238D09A900BBAD24 /* JenkinsFreeStyleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JenkinsFreeStyleTests.m; sourceTree = "<group>"; };
+		D90E4503238D09A900BBAD24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D90E44DF238D09A800BBAD24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90E44FA238D09A900BBAD24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D90E44D9238D09A800BBAD24 = {
+			isa = PBXGroup;
+			children = (
+				D90E44E4238D09A800BBAD24 /* JenkinsFreeStyle */,
+				D90E4500238D09A900BBAD24 /* JenkinsFreeStyleTests */,
+				D90E44E3238D09A800BBAD24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D90E44E3238D09A800BBAD24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D90E44E2238D09A800BBAD24 /* JenkinsFreeStyle.app */,
+				D90E44FD238D09A900BBAD24 /* JenkinsFreeStyleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D90E44E4238D09A800BBAD24 /* JenkinsFreeStyle */ = {
+			isa = PBXGroup;
+			children = (
+				D90E44E5238D09A800BBAD24 /* AppDelegate.h */,
+				D90E44E6238D09A800BBAD24 /* AppDelegate.m */,
+				D90E44E8238D09A800BBAD24 /* SceneDelegate.h */,
+				D90E44E9238D09A800BBAD24 /* SceneDelegate.m */,
+				D90E44EB238D09A800BBAD24 /* ViewController.h */,
+				D90E44EC238D09A800BBAD24 /* ViewController.m */,
+				D90E44EE238D09A800BBAD24 /* Main.storyboard */,
+				D90E44F1238D09A800BBAD24 /* Assets.xcassets */,
+				D90E44F3238D09A800BBAD24 /* LaunchScreen.storyboard */,
+				D90E44F6238D09A800BBAD24 /* Info.plist */,
+				D90E44F7238D09A800BBAD24 /* main.m */,
+			);
+			path = JenkinsFreeStyle;
+			sourceTree = "<group>";
+		};
+		D90E4500238D09A900BBAD24 /* JenkinsFreeStyleTests */ = {
+			isa = PBXGroup;
+			children = (
+				D90E4501238D09A900BBAD24 /* JenkinsFreeStyleTests.m */,
+				D90E4503238D09A900BBAD24 /* Info.plist */,
+			);
+			path = JenkinsFreeStyleTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D90E44E1238D09A800BBAD24 /* JenkinsFreeStyle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D90E4506238D09A900BBAD24 /* Build configuration list for PBXNativeTarget "JenkinsFreeStyle" */;
+			buildPhases = (
+				D90E44DE238D09A800BBAD24 /* Sources */,
+				D90E44DF238D09A800BBAD24 /* Frameworks */,
+				D90E44E0238D09A800BBAD24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JenkinsFreeStyle;
+			productName = JenkinsFreeStyle;
+			productReference = D90E44E2238D09A800BBAD24 /* JenkinsFreeStyle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D90E44FC238D09A900BBAD24 /* JenkinsFreeStyleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D90E4509238D09A900BBAD24 /* Build configuration list for PBXNativeTarget "JenkinsFreeStyleTests" */;
+			buildPhases = (
+				D90E44F9238D09A900BBAD24 /* Sources */,
+				D90E44FA238D09A900BBAD24 /* Frameworks */,
+				D90E44FB238D09A900BBAD24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D90E44FF238D09A900BBAD24 /* PBXTargetDependency */,
+			);
+			name = JenkinsFreeStyleTests;
+			productName = JenkinsFreeStyleTests;
+			productReference = D90E44FD238D09A900BBAD24 /* JenkinsFreeStyleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D90E44DA238D09A800BBAD24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = yangzhen;
+				TargetAttributes = {
+					D90E44E1238D09A800BBAD24 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					D90E44FC238D09A900BBAD24 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = D90E44E1238D09A800BBAD24;
+					};
+				};
+			};
+			buildConfigurationList = D90E44DD238D09A800BBAD24 /* Build configuration list for PBXProject "JenkinsFreeStyle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D90E44D9238D09A800BBAD24;
+			productRefGroup = D90E44E3238D09A800BBAD24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D90E44E1238D09A800BBAD24 /* JenkinsFreeStyle */,
+				D90E44FC238D09A900BBAD24 /* JenkinsFreeStyleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D90E44E0238D09A800BBAD24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90E44F5238D09A800BBAD24 /* LaunchScreen.storyboard in Resources */,
+				D90E44F2238D09A800BBAD24 /* Assets.xcassets in Resources */,
+				D90E44F0238D09A800BBAD24 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90E44FB238D09A900BBAD24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D90E44DE238D09A800BBAD24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90E44ED238D09A800BBAD24 /* ViewController.m in Sources */,
+				D90E44E7238D09A800BBAD24 /* AppDelegate.m in Sources */,
+				D90E44F8238D09A800BBAD24 /* main.m in Sources */,
+				D90E44EA238D09A800BBAD24 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90E44F9238D09A900BBAD24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90E4502238D09A900BBAD24 /* JenkinsFreeStyleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D90E44FF238D09A900BBAD24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D90E44E1238D09A800BBAD24 /* JenkinsFreeStyle */;
+			targetProxy = D90E44FE238D09A900BBAD24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D90E44EE238D09A800BBAD24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D90E44EF238D09A800BBAD24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D90E44F3238D09A800BBAD24 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D90E44F4238D09A800BBAD24 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D90E4504238D09A900BBAD24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D90E4505238D09A900BBAD24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D90E4507238D09A900BBAD24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JenkinsFreeStyle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytedance.com.JenkinsFreeStyle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D90E4508238D09A900BBAD24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JenkinsFreeStyle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytedance.com.JenkinsFreeStyle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D90E450A238D09A900BBAD24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JenkinsFreeStyleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytedance.com.JenkinsFreeStyleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JenkinsFreeStyle.app/JenkinsFreeStyle";
+			};
+			name = Debug;
+		};
+		D90E450B238D09A900BBAD24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JenkinsFreeStyleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytedance.com.JenkinsFreeStyleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JenkinsFreeStyle.app/JenkinsFreeStyle";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D90E44DD238D09A800BBAD24 /* Build configuration list for PBXProject "JenkinsFreeStyle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90E4504238D09A900BBAD24 /* Debug */,
+				D90E4505238D09A900BBAD24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D90E4506238D09A900BBAD24 /* Build configuration list for PBXNativeTarget "JenkinsFreeStyle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90E4507238D09A900BBAD24 /* Debug */,
+				D90E4508238D09A900BBAD24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D90E4509238D09A900BBAD24 /* Build configuration list for PBXNativeTarget "JenkinsFreeStyleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90E450A238D09A900BBAD24 /* Debug */,
+				D90E450B238D09A900BBAD24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D90E44DA238D09A800BBAD24 /* Project object */;
+}
