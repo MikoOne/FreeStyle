@@ -4,6 +4,7 @@ pipeline {
     stage('pre-build') {
       steps {
         sh 'pod install'
+        echo 'AAA'
       }
     }
 
