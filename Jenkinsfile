@@ -6,6 +6,9 @@ pipeline {
         sh 'pod install'
         echo 'AAA'
       }
+      steps{
+        echo 'BB'
+      }
     }
 
     stage('build') {
